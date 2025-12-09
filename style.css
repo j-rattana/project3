@@ -58,7 +58,9 @@ header {
 
 .neon-button {
   display: block;
+  margin: 0 auto;
   padding: 1rem 2rem;
+  max-width: 700px;
   background-color: #00FFFF;
   color: #000;
   font-weight: bold;
