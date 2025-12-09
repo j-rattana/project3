@@ -77,3 +77,26 @@ header {
   transform: scale(1.1);
   box-shadow: 0 0 20px #FFEA00, 0 0 40px #FFEA00;
 }
+
+.highlights {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 3rem;
+  padding: 5rem;
+}
+
+.highlight-card {
+  background: #111;
+  padding: 1.5rem;
+  max-width: 500px;
+  border-radius: 12px;
+  box-shadow: 0 0 15px #A500FF;
+  text-align: center;
+  transition: transform 0.3s ease;
+  overflow: hidden;
+}
+
+.highlight-card:hover {
+  transform: translateY(-5px);
+}
