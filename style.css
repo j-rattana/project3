@@ -12,5 +12,22 @@ html {
   line-height: 1.5;
 }
 
+header {
+  background: #111;
+  padding: 1rem 0;
+}
 
+.nav-links {
+  display: flex;
+  justify-content:flex-end;
+  padding: 0 40px;
+  gap: 2rem;
+}
 
+.nav-links a {
+  text-decoration: none;
+  color: #FF2D95;
+  text-transform: uppercase;
+  font-weight: 600;
+  transition: color 0.3s;
+}
