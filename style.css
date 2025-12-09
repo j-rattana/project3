@@ -55,3 +55,23 @@ header {
   font-weight: 500;
   font-size: small;
 }
+
+.neon-button {
+  display: block;
+  padding: 1rem 2rem;
+  background-color: #00FFFF;
+  color: #000;
+  font-weight: bold;
+  text-align: center;
+  font-family: 'Press Start 2P', cursive;
+  text-transform: uppercase;
+  text-decoration: none;
+  border-radius: 8px;
+  box-shadow: 0 0 10px #00FFFF, 0 0 20px #00FFFF;
+  transition: all 0.3s ease-in-out;
+}
+
+.neon-button:hover {
+  transform: scale(1.1);
+  box-shadow: 0 0 20px #FFEA00, 0 0 40px #FFEA00;
+}
