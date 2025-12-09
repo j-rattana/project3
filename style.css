@@ -7,7 +7,7 @@
 html {
   font-family: 'Poppins', sans-serif;
   font-size: 16pt;
-  background-color: #000000;
+  background: linear-gradient(to bottom,#6A00FF 0%,#180028 10%,#000000 35%,#000000 100%);
   color: #fff;
   line-height: 1.5;
 }
