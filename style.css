@@ -230,3 +230,77 @@ span {
   line-height: 1.4;
   font-size: 0.8rem;
 }
+
+@media (max-width: 480px) {
+  html {
+    font-size: 12pt;
+  }
+
+  .nav-links {
+    justify-content: center;
+    gap: 3rem;
+    padding: 0;
+  }
+
+  .neon-text {
+    font-size: 1.5rem;
+    margin: 3rem 2rem;
+  }
+
+  .neon-button {
+    max-width: 300px;
+    margin-bottom: 2rem;
+  }
+
+  .subtitle {
+    padding-top: 1rem;
+    margin-bottom: 3rem;
+    font-size: 0.6rem;
+    padding: 0 3rem;
+  }
+
+  .highlights {
+    padding: 2rem 1rem;
+    gap: 3rem;
+  }
+
+  .highlight-card {
+    padding: 1rem;
+    max-width: 400px;
+  }
+
+  .about-flex {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .bio {
+    margin: 0;
+    margin-top: 10px;
+    max-width: 400px
+  }
+
+  .wrapper {
+    flex-direction: column;
+    gap: 20px;
+  }
+
+  .vibes {
+    border: 2px solid #7FDBFF;
+    text-align: center;
+    padding: 20px;
+    max-width: 400px;
+  }
+
+  .fun-facts {
+    text-align: center;
+    border: 2px solid #7FDBFF;
+    padding: 50px;
+    max-width: 400px;
+  }
+
+  .grid {
+    grid-template-columns: 1fr;
+    padding: 0 5.5rem;
+  }
+}
