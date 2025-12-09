@@ -182,3 +182,51 @@ span {
   padding: 10px;
   color: greenyellow;
 }
+
+/* Schedule Page */
+.grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 2rem;
+  max-width: 900px;
+  padding: 0 1.5rem;
+  margin-bottom: 3rem;
+}
+
+.card {
+  background: #111;
+  padding: 1.5rem;
+  border-radius: 12px;
+  box-shadow: 0 0 15px #A500FF;
+  border-left: 5px solid #FF2D95;
+  text-align: center;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 0 20px #FF2D95, 0 0 40px #A500FF;
+}
+
+.card h2 {
+  font-family: 'Poppins', sans-serif;
+  color: #FF2D95;
+  margin-bottom: 0.5rem;
+  line-height: 1.9rem;
+}
+
+.card h3 {
+  font-family: 'Press Start 2P', cursive;
+  color: #00FFFF;
+  margin-bottom: 1rem;
+  font-size: 0.8rem;
+  border-bottom: 1px solid white;
+  padding: 15px;
+}
+
+.card p {
+  font-family: 'Poppins', sans-serif;
+  color: #fff;
+  line-height: 1.4;
+  font-size: 0.8rem;
+}
