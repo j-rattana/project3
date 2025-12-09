@@ -175,3 +175,10 @@ footer {
   color: #fff;
   padding: 20px;
 }
+
+span {
+  font-family: 'Press Start 2P', cursive;
+  font-size: 13pt;
+  padding: 10px;
+  color: greenyellow;
+}
