@@ -35,3 +35,23 @@ header {
 .nav-links a:hover {
   color: #00FFFF;
 }
+
+.neon-text {
+  font-family: 'Press Start 2P', cursive;
+  font-size: 2.5rem;
+  color: #FF2D95;
+  text-align: center;
+  text-shadow: 0 0 5px #FF2D95, 0 0 10px #FF2D95, 0 0 50px #FF2D95;
+  margin: 4rem 0;
+}
+
+.subtitle {
+  text-align: center;
+  font-family: 'Press Start 2P', sans-serif;
+  color: #A500FF;
+  text-transform: uppercase;
+  margin-top: -2rem;
+  margin-bottom: 6rem;
+  font-weight: 500;
+  font-size: small;
+}
