@@ -105,3 +105,11 @@ main {
 .highlight-card:hover {
   transform: translateY(-5px);
 }
+
+footer {
+  text-align: center;
+  padding: 2rem;
+  background: #111;
+  color: #FFEA00;
+  font-size: 10pt;
+}
