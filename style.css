@@ -113,3 +113,29 @@ footer {
   color: #FFEA00;
   font-size: 10pt;
 }
+
+/* About Page */
+.about-flex {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+
+.about-flex h2 {
+  margin-bottom: 10px;
+}
+
+.star-image {
+  display: block;
+  max-width: 300px;
+  flex: 1
+  border-radius: 10px;
+  box-shadow: 0 0 20px #FF2D95;
+}
+
+.bio {
+  flex: 3;
+  margin-left: 40px;
+}
