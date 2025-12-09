@@ -36,6 +36,11 @@ header {
   color: #00FFFF;
 }
 
+main {
+  margin: 0 auto;
+  max-width: 800px;
+}
+
 .neon-text {
   font-family: 'Press Start 2P', cursive;
   font-size: 2.5rem;
